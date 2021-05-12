@@ -1,0 +1,300 @@
+$nav-color: #333;
+$nav-text-color: white;
+//s$primary-color: #00b8ff;
+$primary-color: orange;
+$mobile-menu-color: #444;
+$nav-height: 70px;
+$background-image-color: rgba(0, 0, 0, 0.6);
+
+
+%title {
+  font-size: 30px;
+  color: #333;
+  text-align: center;
+  font-style: italic;
+}
+
+
+html, body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, serif;
+}
+
+body {
+  background-color: #ddd;
+}
+
+.ac {
+  color: $primary-color;
+}
+
+nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 100;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0;
+  background-color: $nav-color;
+  color: $nav-text-color;
+  height: $nav-height;
+
+  h1 {
+    margin: 0 50px;
+  }
+
+  ul {
+    margin: 0 40px;
+    list-style-type: none;
+
+    li {
+      display: inline-block;
+      margin: 0 10px;
+
+      a {
+        color: $nav-text-color;
+        text-decoration: none;
+      }
+
+      :hover {
+        color: $primary-color;
+      }
+    }
+  }
+
+  .mobile {
+    display: none;
+  }
+}
+
+#showBtn {
+  cursor: pointer;
+}
+
+@for $i from 1 through 4 {
+  .item-margin-#{$i} {
+    background-color: rgba(60 + $i * 10, 60 + $i * 10, 60 + $i * 10);
+  }
+}
+
+//.---------------index.html--------------------
+
+.main-img {
+  background-image: url("main.jpeg");
+  margin-top: $nav-height;
+  height: calc(100vh - 70px);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom center;
+  position: relative;
+
+  .black {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: $background-image-color;
+    color: white;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    div {
+      margin-bottom: $nav-height;
+      text-align: center;
+
+      h3 {
+        color: $primary-color;
+        font-size: 30px;
+      }
+    }
+  }
+}
+
+//-----------------work.html-----------------------
+
+.work {
+  margin-top: $nav-height + 5px;
+
+  .card {
+    padding: 0 20px;
+    margin: 5px auto;
+    border: 1px solid #ccc;
+    background-color: #eee;
+    max-width: 1000px;
+
+    .header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+
+      button {
+        background-color: $primary-color;
+        border: 0;
+        cursor: pointer;
+        padding: 8px 20px;
+        border-radius: 5px;
+      }
+
+      button:active {
+        transform: scale(0.95);
+      }
+    }
+
+    .content {
+      display: none;
+      border-top: 1px solid $primary-color;
+      margin-bottom: 20px;
+      padding-top: 5px;
+    }
+  }
+}
+
+//-------gallery.html---------------
+.container {
+  margin-top: $nav-height + 20px;
+
+  h2 {
+    @extend %title;
+  }
+
+  .img-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    max-width: 1500px;
+    margin: 0 auto;
+
+    img {
+      width: 300px;
+      height: auto;
+      margin: 15px;
+      border: 3px solid $primary-color;
+    }
+  }
+}
+
+//-------------contact-html----------------
+.contact {
+  max-width: 1500px;
+  margin: $nav-height + 20px auto 0;
+
+  h2 {
+    @extend %title;
+  }
+
+  .m {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 20px;
+
+    .map {
+      border: 5px solid $primary-color;
+      width: 45%;
+      min-width: 400px;
+      min-height: 350px;
+      margin: 0 auto;
+
+      iframe {
+        width: 100%;
+        height: 350px;
+      }
+    }
+
+    .cnct {
+      margin: 0 auto;
+      border: 5px solid $primary-color;
+      width: 45%;
+      min-width: 400px;
+      min-height: 350px;
+      background-color: #fff;
+      display: flex;
+      flex-direction: column;
+      flex-wrap: wrap;
+      justify-content: center;
+      align-items: center;
+      font-size: 20px;
+
+      div {
+        width: 350px;
+        margin: 5px;
+
+        svg {
+          width: 50px;
+        }
+      }
+    }
+  }
+
+}
+
+//---------media--------
+@media(max-width: 1050px) {
+  .work {
+    .card {
+      margin: 5px 15px;
+    }
+  }
+}
+
+
+@media screen and(max-width: 860px) {
+  nav {
+    .main {
+      display: none;
+    }
+
+    .mobile {
+      display: block;
+
+      p {
+        margin: 0 50px;
+        font-size: 25px;
+      }
+
+      ul {
+        display: none;
+      }
+
+      .show {
+        display: block;
+        position: fixed;
+        left: 0;
+        right: 0;
+        top: $nav-height;
+        margin: 0;
+        padding: 0;
+        background-color: $mobile-menu-color;
+
+        li {
+          display: block;
+          padding: 5px;
+          text-align: center;
+          margin: 0;
+        }
+
+        :first-child {
+          padding-top: 10px;
+        }
+
+        :last-child {
+          padding-bottom: 10px;
+        }
+      }
+    }
+  }
+
+  .contact {
+    .m {
+      .map {
+        margin-top: 25px;
+      }
+    }
+  }
+}

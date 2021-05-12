@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Lorem ipsum - Gallery</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="node_modules/@fortawesome/fontawesome-free/css/all.min.css">
+    <link rel="stylesheet" href="node_modules/lightbox2/dist/css/lightbox.min.css">
+</head>
+<body>
+<nav>
+    <h1>Lorem ipsum</h1>
+    <ul class="main">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="work.html">Work</a></li>
+        <li><a class="ac" href="gallery.html">Gallery</a></li>
+        <li><a href="contact.html">Contact</a></li>
+    </ul>
+    <div class="mobile">
+        <p id="showBtn"><i class="fas fa-compass"></i></p>
+        <ul>
+            <li class="item-margin-1"><a href="index.html">Home</a></li>
+            <li class="item-margin-2"><a href="work.html">Work</a></li>
+            <li class="item-margin-3"><a class="ac" href="gallery.html">Gallery</a></li>
+            <li class="item-margin-4"><a href="contact.html">Contact</a></li>
+        </ul>
+    </div>
+</nav>
+
+<div class="container">
+    <h2>Galerie</h2>
+    <div class="img-container">
+        <a href="img/img1.jpeg" data-lightbox="image-1" data-title="My Image 1"><img src="img/img1.jpeg" alt="img1"></a>
+        <a href="img/img2.jpeg" data-lightbox="image-2" data-title="My Image 2"><img src="img/img2.jpeg" alt="img2"></a>
+        <a href="img/img3.jpeg" data-lightbox="image-3" data-title="My Image 3"><img src="img/img3.jpeg" alt="img3"></a>
+        <a href="img/img4.jpeg" data-lightbox="image-4" data-title="My Image 4"><img src="img/img4.jpeg" alt="img4"></a>
+        <a href="img/img5.jpeg" data-lightbox="image-5" data-title="My Image 5"><img src="img/img5.jpeg" alt="img5"></a>
+    </div>
+</div>
+<script src="nav.js"></script>
+<script src="node_modules/lightbox2/dist/js/lightbox-plus-jquery.min.js"></script>
+<script src="node_modules/@fortawesome/fontawesome-free/js/all.min.js"></script>
+</body>
+</html>
