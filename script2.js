@@ -2,6 +2,7 @@ let cards
 
 let myOnLoadFunc = function () {
   cards = document.querySelectorAll("[data-toggle='collapse']")
+  removeShow()
   cards.forEach((card) => {
     let content = getContent(card)
     card.addEventListener('click', () => {
