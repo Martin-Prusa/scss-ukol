@@ -1,0 +1,55 @@
+nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 100;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0;
+  background-color: $nav-color;
+  color: $nav-text-color;
+  height: $nav-height;
+
+  h1 {
+    margin: 0 50px;
+  }
+
+  ul {
+    margin: 0 40px;
+    list-style-type: none;
+
+    li {
+      display: inline-block;
+      margin: 0 10px;
+
+      a {
+        color: $nav-text-color;
+        text-decoration: none;
+      }
+
+      :hover {
+        color: $primary-color;
+      }
+    }
+  }
+
+  .mobile {
+    display: none;
+  }
+}
+
+#showBtn {
+  cursor: pointer;
+}
+
+@for $i from 1 through 4 {
+  .item-margin-#{$i} {
+    background-color: rgba(60 + $i * 10, 60 + $i * 10, 60 + $i * 10);
+  }
+}
+
+.ac {
+  color: $primary-color;
+}

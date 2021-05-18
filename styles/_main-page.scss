@@ -1,0 +1,32 @@
+.main-img {
+  background-image: url("./../img/main.jpeg");
+  margin-top: $nav-height;
+  height: calc(100vh - 70px);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  position: relative;
+
+  .black {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: $background-image-color;
+    color: white;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    div {
+      margin-bottom: $nav-height;
+      text-align: center;
+
+      h3 {
+        color: $primary-color;
+        font-size: 30px;
+      }
+    }
+  }
+}
