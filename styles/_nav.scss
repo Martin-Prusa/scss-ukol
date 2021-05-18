@@ -44,8 +44,8 @@ nav {
   cursor: pointer;
 }
 
-@for $i from 1 through 4 {
-  .item-margin-#{$i} {
+@for $i from 1 through 5 {
+  .item-color-#{$i} {
     background-color: rgba(60 + $i * 10, 60 + $i * 10, 60 + $i * 10);
   }
 }

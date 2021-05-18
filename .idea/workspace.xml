@@ -21,12 +21,14 @@
   <component name="ChangeListManager">
     <list default="true" id="29a37db6-8ada-42d1-b703-07f460ad7bdc" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles/_contact-page.scss" beforeDir="false" afterPath="$PROJECT_DIR$/styles/_contact-page.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/contact.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gallery.html" beforeDir="false" afterPath="$PROJECT_DIR$/gallery.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/styles/_nav.scss" beforeDir="false" afterPath="$PROJECT_DIR$/styles/_nav.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles/_work-page.scss" beforeDir="false" afterPath="$PROJECT_DIR$/styles/_work-page.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/styles/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/styles.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/styles/styles.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/styles/styles.css.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/styles/styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/styles/styles.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/work.html" beforeDir="false" afterPath="$PROJECT_DIR$/work.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,8 +38,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="JavaScript File" />
+        <option value="HTML File" />
         <option value="SCSS File" />
       </list>
     </option>
@@ -93,7 +95,7 @@
       <workItem from="1620819134195" duration="5255000" />
       <workItem from="1620987295042" duration="471000" />
       <workItem from="1621322308625" duration="536000" />
-      <workItem from="1621332666250" duration="1442000" />
+      <workItem from="1621332666250" duration="3152000" />
     </task>
     <servers />
   </component>
@@ -164,9 +166,13 @@
       <screen x="0" y="23" width="2560" height="1353" />
     </state>
     <state width="1225" height="476" key="GridCell.Tab.2.right/0.23.2560.1353@0.23.2560.1353" timestamp="1621322863320" />
-    <state width="600" height="428" key="javadoc.popup" timestamp="1620832866663">
+    <state width="600" height="428" key="javadoc.popup" timestamp="1621335565885">
       <screen x="0" y="23" width="2560" height="1353" />
     </state>
-    <state width="600" height="428" key="javadoc.popup/0.23.2560.1353@0.23.2560.1353" timestamp="1620832866663" />
+    <state width="600" height="428" key="javadoc.popup/0.23.2560.1353@0.23.2560.1353" timestamp="1621335565885" />
+    <state x="1599" y="332" width="670" height="676" key="search.everywhere.popup" timestamp="1621334920733">
+      <screen x="0" y="23" width="2560" height="1353" />
+    </state>
+    <state x="1599" y="332" width="670" height="676" key="search.everywhere.popup/0.23.2560.1353@0.23.2560.1353" timestamp="1621334920733" />
   </component>
 </project>
