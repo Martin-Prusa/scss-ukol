@@ -53,3 +53,50 @@ nav {
 .ac {
   color: $primary-color;
 }
+
+@media screen and(max-width: 860px) {
+  nav {
+    .main {
+      display: none;
+    }
+
+    .mobile {
+      display: block;
+
+      p {
+        margin: 0 50px;
+        font-size: 25px;
+      }
+
+      ul {
+        display: none;
+      }
+
+      .show {
+        display: block;
+        position: fixed;
+        left: 0;
+        right: 0;
+        top: $nav-height;
+        margin: 0;
+        padding: 0;
+        background-color: $mobile-menu-color;
+
+        li {
+          display: block;
+          padding: 5px;
+          text-align: center;
+          margin: 0;
+        }
+
+        :first-child {
+          padding-top: 10px;
+        }
+
+        :last-child {
+          padding-bottom: 10px;
+        }
+      }
+    }
+  }
+}

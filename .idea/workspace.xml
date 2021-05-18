@@ -21,14 +21,12 @@
   <component name="ChangeListManager">
     <list default="true" id="29a37db6-8ada-42d1-b703-07f460ad7bdc" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/contact.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gallery.html" beforeDir="false" afterPath="$PROJECT_DIR$/gallery.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/img/main.jpeg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/styles.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/styles/styles.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/styles/styles.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/work.html" beforeDir="false" afterPath="$PROJECT_DIR$/work.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/_contact-page.scss" beforeDir="false" afterPath="$PROJECT_DIR$/styles/_contact-page.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/_nav.scss" beforeDir="false" afterPath="$PROJECT_DIR$/styles/_nav.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/_work-page.scss" beforeDir="false" afterPath="$PROJECT_DIR$/styles/_work-page.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/styles.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/styles/styles.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/styles/styles.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -95,7 +93,7 @@
       <workItem from="1620819134195" duration="5255000" />
       <workItem from="1620987295042" duration="471000" />
       <workItem from="1621322308625" duration="536000" />
-      <workItem from="1621332666250" duration="1194000" />
+      <workItem from="1621332666250" duration="1442000" />
     </task>
     <servers />
   </component>
