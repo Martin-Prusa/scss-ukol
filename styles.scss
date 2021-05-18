@@ -2,6 +2,7 @@ $nav-color: #333;
 $nav-text-color: white;
 //s$primary-color: #00b8ff;
 $primary-color: orange;
+$secondary-color: green;
 $mobile-menu-color: #444;
 $nav-height: 70px;
 $background-image-color: rgba(0, 0, 0, 0.6);
@@ -148,7 +149,7 @@ nav {
 
     .content {
       display: none;
-      border-top: 1px solid $primary-color;
+      border-top: 1px solid $secondary-color;
       margin-bottom: 20px;
       padding-top: 5px;
     }
@@ -174,7 +175,7 @@ nav {
       width: 300px;
       height: auto;
       margin: 15px;
-      border: 3px solid $primary-color;
+      border: 3px solid $secondary-color;
     }
   }
 }
@@ -195,7 +196,7 @@ nav {
     margin: 20px;
 
     .map {
-      border: 5px solid $primary-color;
+      border: 5px solid $secondary-color;
       width: 45%;
       min-width: 400px;
       min-height: 350px;
@@ -209,11 +210,11 @@ nav {
 
     .cnct {
       margin: 0 auto;
-      border: 5px solid $primary-color;
+      border: 5px solid $secondary-color;
       width: 45%;
       min-width: 400px;
       min-height: 350px;
-      background-color: #fff;
+      background-color: #eee;
       display: flex;
       flex-direction: column;
       flex-wrap: wrap;
