@@ -2,5 +2,23 @@
   "dependencies": {
     "@fortawesome/fontawesome-free": "^5.15.3",
     "lightbox2": "^2.11.3"
-  }
+  },
+  "name": "sassukol",
+  "version": "1.0.0",
+  "description": "Ukol",
+  "main": "index.html",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Martin-Prusa/scss-ukol.git"
+  },
+  "author": "Martin Průša",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Martin-Prusa/scss-ukol/issues"
+  },
+  "homepage": "https://github.com/Martin-Prusa/scss-ukol#readme"
 }
